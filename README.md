@@ -16,6 +16,10 @@ To run the node:
 ```
 ros2 launch synexens_lidar launch.py
 ```
+To run the node + a rviz visualization of the data:
+```
+rso2 launch synexens_lidar view_launch.py
+```
 There is a config file that the node uses to set itself up. Documentation for the 
 various avaliabe parameters are avaliable in the file config/synexens.yaml.
 ## Topics
